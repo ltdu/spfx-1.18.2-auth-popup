@@ -1,0 +1,16 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.aadTokenHandler {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+}
+
+.welcome {
+  text-align: center;
+}
+
+.button {
+  margin-right: 25px;
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "aad-token-handler-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/aadTokenHandler/AadTokenHandlerWebPart.js",
+          "manifest": "./src/webparts/aadTokenHandler/AadTokenHandlerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "AadTokenHandlerWebPartStrings": "lib/webparts/aadTokenHandler/loc/{locale}.js"
+  }
+}

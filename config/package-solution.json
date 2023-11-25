@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfx-1-18-2-auth-popup-client-side-solution",
+    "id": "5bb1a314-7775-409b-8880-8034a2d7b503",
+    "version": "1.0.4.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfx-1-18-2-auth-popup description"
+      },
+      "longDescription": {
+        "default": "spfx-1-18-2-auth-popup description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfx-1-18-2-auth-popup Feature",
+        "description": "The feature that activates elements of the spfx-1-18-2-auth-popup solution.",
+        "id": "479acc34-8025-4559-854f-9080a3f5a93a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-1-18-2-auth-popup.sppkg"
+  }
+}
